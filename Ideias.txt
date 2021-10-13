@@ -1,0 +1,16 @@
+Ideias: Jogabilidade -
+
+Enquanto a lanterna estiver ligada,
+a tela do CMD se torna branca e as letras pretas.
+Quando a lanterna estiver apagada, o CMD fica com a cor
+normal.
+
+Ao tomar uma decisão que resultará em morte, a tela
+do CMD fica vermelha.
+
+Ao morrer, o jogador volta para a ultima teia de decisões.
+
+Ao selecionar uma decisão, elas são apagadas para só aparecerem
+novamente no término da escrita resultante de uma decisão.
+
+

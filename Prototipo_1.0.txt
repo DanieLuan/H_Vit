@@ -1,0 +1,139 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <string.h>
+#include <windows.h>
+
+char vz[2] = "\n";
+char u[256] = "1. Pego a bolsa, pode ser util para carregar objetos.";
+char d[256] = "2. Pego a lanterna.";
+char t[256] = "3. Confiro a chave.";
+char q[256] = "4. Olho mais um pouco ao redor, talvez eu tenha deixado de notar algo.";
+char c[256] = "5. Grito, talvez alguem me escute.";
+char sei[256] = "6. Tento abrir a porta";
+char set[256] = "7 - Tento usar a chave na porta.";
+int dec;
+#define p printf
+#define portugues setlocale(LC_ALL, "Portuguese");
+
+
+
+int main(void){
+	portugues
+	int tentou=0, sair=0, os=0;
+	int i;
+ 	p("Acordo em uma sala totalmente escura... não lembro como vim parar aqui. A única possível fonte\n"
+	"de luz, a janela, está trancada com pedaços de tábua marretadas na parede. A chuva martela contra\n"
+	"a janela, uma  tempestade parece estar ocorrendo do lado de fora. Um sentimento estranho acompanha\n"
+	"meu despertar.\n\n");
+	p("Após algum tempo, minha visão se acostuma com a escuridão e sou capaz de discernir a forma\n"
+	"de uma porta e alguns objetos ao meu redor. Espalhados pela sala, vejo uma chave, uma bolsa e\n"
+	"uma lanterna. Eu...\n\n");
+	
+	start:
+	if (os == 0) {
+	p("%s\n"
+	"%s\n"
+	"%s\n"
+	"%s\n"
+	"%s\n"
+	"%s\n",u, d, t, q, c, sei); }
+	if (os == 1) {
+	p("%s\n"
+	"%s\n"
+	"%s\n"
+	"%s\n"
+	"%s\n"
+	"%s\n"
+	"%s\n",u, d, t, q, c, sei, set); }
+	scanf("%d", &dec);
+	system("cls");
+	if (dec ==1) {
+	strcpy(u, "");
+	p("... pego a bolsa, pode ser util para carregar objetos. Ela é uma bolsa escolar totalmente preta. \n"
+	"Dentro dela, encontro o recorte de um jornal datando de 05 de janeiro de 1984. \n");
+		//je1();
+		p("05 de Janeiro de 1984 -\n\n" 
+	
+		"ABRE O HOTEL VITORIA\n\n"
+
+		"É INAUGURADO HOJE O MAGNIFICO HOTEL VITORIA, DEPOIS DE 4 ANOS DA REFORMA DE UMA MANSÃO DOS TEMPOS\n"
+		"VITORIANOS. UMA FILA ENORME DE TURISTAS COM INTERESSE EM VEREM A REFORMA SE FORMOU NO DIA DA SUA\n"
+		"INAUGURAÇÃO. O GERENTE DIZ QUE ABRIRÁ VAGAS PARA HOSPEDAGEM A PARTIR DA SEMANA QUE VEM, QUERENDO\n"
+		"NESSA SEMANA SOMENTE MOSTRAR COMO O HOTEL É PARA OS HABITANTES. POR SER A BEIRA MAR, E PROXIMA DA\n"
+		"CAPITAL, ELE CRÊ QUE O FLUXO DE CLIENTES SERÁ GRANDE. E PROVAVELMENTE SERÁ, AFINAL, É O UNICO HOTEL DE\n"
+		"TODO O PAÍS QUE FOI FEITO A PARTIR DE UMA MANSÃO VITORIANA. ALÉM DISSO ELE É LOCALIZADO A BEIRA MAR,\n"
+		"DEIXANDO OS SEUS HOSPEDES APRECIAREM UMA PAISAGEM EXUBERANTE DO MAR DO NORTE. HÁ ATÉ UM QUARTO SOMENTE\n"
+		"PARA CRIANÇAS SE DIVERTEREM, E TAMBÉM UM QUARTO ESPECIAL, COM ESPAÇO EXTRA E MAIS CONFORTO.\n"
+
+		"FICANDO A APENAS 60 MILHAS DE NEWCASTLE, VITORIA CONTA COM TRÊS ANDARES SUPERIORES QUE ABRIGAM EXATAMENTE\n"
+		"SESSENTA QUARTOS, UM SALÃO PRINCIPAL NO TERREO, COM QUARTOS DE FUNCIONARIOS E DO GERENTE E UM SUBSOLO, PARA\n"
+		"PROPOSITOS MAIS TECNICOS.\n\n\n"
+	
+		"O QUE ANTES ERA UMA GRANDE RUÍNA É HOJE UMA INCRIVEL ATRAÇÃO TURISTICA QUE COM CERTEZA IMPULSIONARÁ A\n"
+		"ECONOMIA DA PEQUENA CIDADE DE NOTHA.\n\n");
+		
+	printf("\n");
+	p("Então é aqui que estou... mas por quê? E por quê não consigo me lembrar de nada? As perguntas pairam no \n"
+	"ar, decido que tenho de sair daqui: Esse lugar me dá uma sensação estranha... Guardo o jornal dentro \n "
+	"da bolsa, talvez haja mais recortes como esse por ai. Eu... \n"); 
+	sair++; }
+
+	else if (dec ==2) { 
+	strcpy (d, "");
+	p("... pego a lanterna. É uma lanterna a pilha comum, prateada e com uma especie de pulseira para para fixa-la na mão. \n" 
+	"Vou mantê-la comigo, será util quando precisar de iluminação em um canto realmente escura. Então ... \n");
+	sair ++; }
+
+	else if (dec ==3) {
+	strcpy (t, "");
+	p("... pego a lanterna. É uma lanterna a pilha comum, prateada e com uma especie de pulseira para para fixa-la na mão. \n");
+	p("Vou mantê-la comigo, será util quando precisar de iluminação em um canto realmente escura. Então ... \n");
+	sair ++;
+	os = 1; }
+	
+
+	else if (dec ==4) {
+	strcpy (q, ""); 
+	p("... olho mais um pouco ao redor, talvez eu tenha deixado de notar algo. \n \n");
+	p("Acho um bilhete em cima de uma mesa, a caligrafia me é extremamente familiar, embora não consiga \n"
+	"lembrar o porquê. escrito nele está NÃO SAIA DA MANSÃO, inumeras vezes... mas a tinta não é preta,\n"
+	"é vermelha, e... é estranha, como se não fosse realmente tinta. Coloco o bilhete no bolso. Após algum tempo ...\n"); }
+
+	else if (dec ==5) {
+	strcpy(c, "");
+	p("...grito, talvez alguém me escute. \n"
+	"Meu grito ecoa na sala, mas nada parece tê-lo ouvido. Eu... \n"); 
+}
+	else if (dec == 6){
+	if (sair != 3 && tentou > 0) {
+		p("tento abrir a porta novamente, esta trancada. Eu... \n"); }
+	if (sair == 3 && tentou > 0) {
+		p("... tento abrir a porta de novo e ela... abre? Que estranho, eu poderia jurar que ela estava \n"
+		"fechada. Saio do quarto \n");
+			goto final; }
+
+	if (sair != 3) { 
+		p("..tento abrir a porta. Está trancada, como vou sair daqui? Volto, talvez eu tenha perdido algo. Então eu ...\n");
+		tentou ++; }
+	if (sair == 3) { 
+		p("tento abrir a porta. Ela abre com um rangido que indica antiguidade."
+		"Saio do quarto. \n");
+		goto final; } } 
+
+	if (dec ==7 && os == 1) { 
+		strcpy(set, "");
+		p("... tento usar a chave na porta. Ela não encaixa. Ponho ela de volta\n"
+		"no bolso e... \n"); } 
+		printf("\n");
+		p("\n");
+		system("pause");
+		p("\n");
+		
+	for ( i = 1; i > 0; i * i) {
+		system("cls");
+		goto start; }
+
+	final :
+	return 0;}
+	

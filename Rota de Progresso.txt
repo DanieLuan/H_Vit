@@ -1,0 +1,161 @@
+ROTA DE PROGRESSO
+
+	0 - QUARTO DO DESPERTAR (QUARTO 47)
+		-Lanterna
+		-Chave Dourada
+		-Bolsa
+		-Entrada de Jornal - 05 de janeiro de 1984
+	1 - CORREDOR (ANDAR 2)
+
+		1.1 - QUARTO 46 (Pode ser arrombado chutando 3 vezes)
+			- Diario de um hospede [J. Ashes]
+			- Pilhas de Lanterna
+			- Vista para o mar (brecha da janela)
+
+		1.2 - QUARTO 48	(Aberto)
+			-Chave do Quarto 50.
+			-Diário de M. Millers [Entrada 3]
+			-Porta se fecha de repente. Não abre para dentro?
+			-Chutar para sair do quarto.
+			-Foto do Hotel 
+
+		1.3 - OUTROS QUARTOS (Não podem ser abertos)
+			QUARTO 52 - Pode-se ouvir um choro por trás da porta.
+				    Tentar se comunicar. Ninguém responde. O choro para
+				    Pode-se ouvir uma... risada? por trás da porta
+			Quarto 49 - Um rádio repete um chiado incessante.
+
+		1.4 - QUARTO X (Pode ser aberto com chave, localizada no quarto 48)
+			-Guarda Chuva
+			-Chave para Andar 1
+			-Jornal (02 de fevereiro de 1985)
+				Se chutar escrivaninha ->
+					-Boneca de trapos (Ofereça a garotinha)
+			-Banheiro:
+				-Remédio Antipsicotico (3 comprimidos) 
+					->Dura durante toda uma "fase"
+	2 - ANDAR 1 
+
+		2.1 - Quarto Especial
+
+			-Janelas abertas, vistas para uma pequena vila (Contrária ao mar),	
+			Vista para a estrada e um carro [Objetivo]. Pôr do Sol.
+			-Entrada de Jornal (28 de Abril de 1986)
+			-Bilhete: "NEM TODOS SÃO REAIS"
+			-Pilha de Lanterna
+			
+		
+		2.2 - Quarto das crianças
+
+			Vários brinquedos velhos estão espalhados por todo o lugar.
+		Se tomou um anti psicótico ->
+			-Examinar Sala
+				Chance aleatoria (Achar biblia ou pistola)
+		Se não tomou um anti psicótico ->
+			No quarto, tem duas portas. Em cima delas, tem uma pergunta
+			"Você acredita em Deus?"
+			Porta "SIM" ->
+				Acha uma Biblia: "Bem vindo ao inferno"
+				Pega Biblia
+			Porta "NÃO" ->
+				Acha uma Pistola: "O Inferno é real, você está nele agora"
+				(Pega Pistola, sem balas)
+		Varias crianças surgem atrás de você e somem após  pegar o item.
+			
+		2.3 - Quarto 33 (Aberto)
+			-Diario de Susan Beth 
+			-Insignia de Xerife
+			-Papel
+					Papel = Bilhete
+					"A chave está no 3º andar, cuidado com... ele"
+					[Novo Objetivo: Ir para o 3º Andar]
+			-Corda grande (Descer para subsolo)
+			-Cadaver feminino. Decomposto
+
+		2.4 OUTROS QUARTOS -
+			Se Tomou Anti psicótico ->
+
+				Quarto 30 - Nada
+				Quarto 34 - Um rádio repete a palavra norte incessantemente.
+				Quarto 38 - Nada
+
+			Se não tomou anti psicótico ->
+
+				Quarto 30 - É possivel ouvir uma cantiga de roda por trás das portas
+				Quarto 34 - Um rádio repete a palavra morte incessantemente
+				Quarto 38 - Alguém te encara de volta pelo olho mágico.
+			
+		Porta para Terreo - Bloqueada.
+
+	3 - Subsolo (Anti-psicoticos não tem efeito)
+
+			3.1 - Cozinha - 
+
+				-Entrada de Jornal - 04 de Março de 1987
+				-Diario de M. Millers - Entrada 02
+			
+			3.2 - Almoxarifado -
+
+				Garotinha aponta uma pistola antiga para você
+					Faz uma contagem regressiva para atirar. 5 - 0.
+						Caso Esteja com biblia : Opção:"Exorcismo"
+							Risadas são ouvidas por todo o hotel, a garota desaparece
+						Caso Esteja com pistola : Opção: "Atirar"
+							As balas a atravessam. Ela some com um grunhido irritado
+						Caso esteja com boneca : Opção : "Entregar boneca"
+							A garota agarra a boneca e some.
+							-Entrada de Jornal -  05 de Janeiro de 1986
+						Caso não faça nada até 0: Morte. - Voltar para> Começo no Subsolo.
+				-Ao sumir, a garota deixa a chave do quarto do zelador
+
+			3.3 - Quarto do Zelador.
+
+				Caso tenha entregado a boneca à garotinha.
+					-Chave de quarto 0
+				-Um velho te encara incessantemente. Ele não faz nenhum mal. Só fica
+				parado, te encarando.
+				-Diário: Albert Zimmerman
+				-Ao pegar o diario, ele some
+				-Pé de cabra. (Pode arrombar a porta no fim da escada para o hall
+				de entrada.
+
+		4 - Hall de Entrada 
+
+			Caso tome um antipsicotico -
+				Todo o Hall de entrada está incrivelmente bagunçado e escuro
+			Caso não tome um antipsicotico -
+				Todo o Hall de entrada está impecavelmente limpo e claro.
+
+			4.1 - Recepção 
+
+				- Jornal: 28 de Outubro de 1987
+				-Chave: Hall de Entrada
+			
+			4.2 - Quarto 0
+
+				-Diario de M. Millers - Entrada 01
+
+			O Elevador está no andar 2
+
+			Pede o elevador
+			chave dourada abre o elevador.
+			Porta do hall está trancada.
+
+		5 - Andar 3 - 
+			
+		
+		
+
+		
+			
+
+
+
+
+			
+			
+			
+		
+			
+	
+		

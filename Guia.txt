@@ -1,0 +1,353 @@
+( QUARTO DO DESPERTAR )
+
+"Acordo em uma sala totalmente escura... não lembro como vim parar aqui. A única possivel fonte 
+de luz, a janela, está trancada com pedaços de tabua marretadas na parede. A chuva martela contra 
+a janela, uma  tempestade parece estar ocorrendo do lado de fora. Um sentimento estranho acompanha 
+meu despertar."
+
+"Após algum tempo, minha visão se acostuma com a escuridão e sou capaz de discernir a forma
+de uma porta e alguns objetos ao meu redor. Espalhados pela sala, vejo uma chave, uma bolsa e 
+uma lanterna. Eu..."
+	
+1. Pego a bolsa, pode ser util para carregar objetos.
+
+	"... pego a bolsa, pode ser util para carregar objetos. Ela é uma bolsa escolar totalmente preta. 
+	Dentro dela, encontro o recorte de um jornal datando de 05 de janeiro de 1984. "
+
+	 	{Mostrar Entrada de jornal 1 - 05 de janeiro de 1984}
+
+		{Adicionar 05 de Janeiro de 1984 em Documentos - Jornal}
+
+	"Então é aqui que estou... mas por quê? E por quê não consigo me lembrar de nada? As perguntas pairam no
+	ar, decido que tenho de sair daqui: Esse lugar me dá uma sensação estranha... Guardo o jornal dentro 
+	da bolsa, talvez haja mais recortes como esse por ai. Eu..."
+
+	{Eliminar opção 1, mostrar opções restantes}
+		
+
+2. Pego a lanterna.
+
+	"... pego a lanterna. É uma lanterna a pilha comum, prateada e com uma especie de pulseira para para fixa-la na mão. 
+	Vou mantê-la comigo, será útil quando precisar de iluminação em um canto realmente escura. Então ..."
+
+	{Mostrar opções restantes, eliminar opção 2}
+	
+
+3. Confiro a chave.
+
+	"... confiro a chave. Ela é dourada e tem uma forma estranha, parece ser bastante antiga 
+	e feita de um bom metal pois não mostra sinais de ferrugem. Guardo a chave no bolso, talvez 
+	seja útil mais tarde. Após isso, ..."
+
+	{Eliminar opção 3, mostrar opções restantes. Libera opção 7}
+
+4. Olho mais um pouco ao redor, talvez eu tenha deixado de notar algo.
+
+	"... olho mais um pouco ao redor, talvez eu tenha deixado de notar algo."
+	"Acho um bilhete em cima de uma mesa, a caligrafia me é extremamente familiar, embora não consiga
+	lembrar o porquê. escrito nele está NÃO SAIA DA MANSÃO, inumeras vezes... mas a tinta não é preta,
+	é vermelha, e... é estranha, como se não fosse realmente tinta. Coloco o bilhete no bolso. Após algum tempo ..."
+
+	{Eliminar opção 4, mostrar opções restantes }
+
+5. Grito, talvez alguem me escute.
+
+	"...grito, talvez alguém me escute."
+	"Meu grito ecoa na sala, mas nada parece tê-lo ouvido. Eu..." 
+
+	{ Eliminar opção 5, mostrar opções restantes)
+
+6. Tento abrir a porta
+
+	[A1 - Se opções 1, 2, 3 não tiverem sido selecionadas]
+
+		"...tento abrir a porta. Está trancada, como vou sair daqui? Volto, talvez eu tenha perdido algo. Então eu ..."
+
+		{Mostrar opções)
+
+	[A2 - Tentou A1 uma ou mais vezes]
+
+		"...tento abrir a porta novamente. Está trancada. Eu..."
+
+		{Mostrar opções)
+
+	[A3 - Se opções 1, 2, 3 tiverem sido selecionadas]
+
+		"...tento abrir a porta. Ela abre com um rangido que indica antiguidade. Saio do quarto"
+
+		{Ir para Corredor}
+
+	[A4 - Se tentou A1 uma ou mais vezes, mas agora selecionou as opções 1,2,3 e tentou de novo]
+
+		"...tento abrir a porta de novo e ela... abre? Que estranho, eu poderia jurar que ela estava
+		fechada. Saio do quarto"
+
+		{Ir para corredor}
+
+7 - Tento usar a chave na porta.
+
+	"... tento usar a chave na porta. Ela não encaixa. Ponho ela de volta no bolso e..."
+
+		{Eliminar opção 7, mostrar opções restantes)
+
+(CORREDOR)
+
+"O Corredor está totalmente escuro salvo um feixe de luz que ilumina uma pequena parcela
+dele. Ligo a lanterna e algo passa rapidamente sobre mim, isso foi um vulto? parecia pequeno... 
+Talvez eu esteja imaginando coisas. A portal pela qual saí tem a numeração 47."
+	
+"Aponto minha lanterna para as outras portas. Ao meu lado estão os quartos 48 e 46. Na minha frente,
+há um quarto com a numeração apagada... é como se os numeros tivessem sido arrancados a força da 
+porta.
+
+"Há varios outros quartos pelo corredor, e ao final deste há uma porta. Eu..."
+
+1. Tento abrir a porta 46
+	
+	"... tento abrir a porta 46, mas ela parece estar emperrada. Então eu..."
+	{Mudar opção 1 --> * 1 *}
+
+	* 1 *. Chuto a porta.
+		"chuto a porta. Nada acontece, ..."
+		[Se opção * 1 * for selecionado 3 vezes]
+		"A porta finalmente abre com um estrondo, relevando uma suíte de hotel comum,
+		com camas arrumadas e uma janela aberta."
+
+			{Ir para Quarto 46)
+
+			(QUARTO 46)
+
+			"Uma fria brisa me atinge. Eu ..."
+			
+			1. Vou até a janela aberta.
+
+				"... vou até a janela aberta. O mar é uma infinidão azul na minha frente.
+				Posso ver um farol apagado numa pequena peninsula. É dificil precisar as horas
+				com a tempestade, pode ser qualquer hora entre 3PM e 5 PM. É uma vista realmente
+				bela. Após admirar a vista, ... "
+				{Elimina opção 1, mostra opções restantes}	
+		
+			2. Checo o quarto.
+
+				"... checo o quarto. Acho um envolope na cabeceira da cama de casal e algumas
+				pilhas de lanterna ao chão. "
+				{Libera opções 3, 4, elimina opção 2}
+			
+				3. Checo a carta.
+			
+					"Checo o envolope. Abro ele, dentro há uma carta. O nome do destinatário está riscado,
+					e a data borrada, mas pelo estado do papel parece bastante antigo. Pertencia a um homem
+					chamado J. Ashes"
+
+					{Mostrar: Outros Documentos - J. Ashes }
+					{Adicionar J. Ashes a Documentos, outros documentos}
+				
+					"Por que essa carta nunca foi enviada? Tem algo acontecendo nesse hotel... tenho que sair
+					daqui. Eu..."
+
+					{eliminar opção 3, mostrar opções restantes}
+
+				4. Recolho as pilhas de lanterna
+
+					"... recolho as pilhas de lanterna do chão. Se a pilha acabar, agora tenho uma reserva. Me 
+					levanto e..."
+					{Eliminar opção 4, mostrar opção restantes}
+
+				[Caso todas as opções possiveis tenham sido selecionadas]
+
+				5 - Saio do quarto.
+
+					"... saio do quarto."
+					{Ir para Corredor}
+					{Eliminar opção 1: Chutar a porta}
+					Estou de volta ao corredor, ..."
+					
+
+2. Tento abrir a porta 48
+
+	"... tento abrir a porta e, para minha surpresa, ela está aberta. Sem chutes dessa vez. Adentro o quarto."
+
+		{Ir para Quarto 48}
+
+		(QUARTO 48)
+
+		"Assim que entro, a porta fecha com tudo atrás de mim. Foi uma corrente de vento? Eu..."
+	
+			1. Tento sair do quarto.
+
+				[A1 - Opções 3,4 não selecionadas]
+
+				"...tento sair do quarto. A porta está emperrada. Como eu vou sair 
+				daqui? Eu..."
+
+				{Mostrar opções restantes}
+	
+				[A2 - Opções 3,4 selecionadas]
+
+				"...tento sair do quarto. A porta está emperrada. Chuto-a. Ela se
+				abre como que por magica."
+
+				{Ir para corredor}
+
+				"Estou de volta ao corredor. Eu..."
+
+				{Eliminar opção 2: Porta 48}
+		 
+		
+			2. Checo ao redor
+
+				" ... checo ao redor. Vejo uma pagina rasgada no chão, uma chave e uma foto numa escrivaninha. 
+				Rapidamente ..."
+
+				{Libera opções 3,4,5. Elimina opção 2.}
+
+			3. Confiro a pagina.
+			
+				"... confiro a pagina. É uma pagina de um diário rasgada, parece pertencer a um homem
+				chamado M Millers.
+				 
+				{Mostrar Diario de M Millers, entrada 03}
+
+				{Adicionar Entrada 03 a Documentos, Diario de M Millers}
+
+				"Entregas? Como assim? Tenho certeza que Millers não era só um gerente de hotel. Há
+				algo por trás do Hotel Vitoria... Mas não sei o que é. Talvez valha a pena
+				investigar, talvez tenha haver com o motivo de eu estar aqui. Eu...
+				
+				{Eliminar opção 3, mostrar opções restantes}
+
+			4. Pego a chave.
+
+				"Pego a chave. Na cabeça desta está escrito '50'. A guardo e..."
+
+			
+				{Eliminar opção 4, mostrar opçõs restantes}
+				
+			5. Confiro a foto.
+			
+				"... confiro a foto. Nela está o hotel overlook com um homem, que creio
+				ser Millers cortando a faixa de inauguração. Seu sorrio é mais do que feliz é...
+				Doentio. Deixo a foto onde estava e..."
+
+				{Eliminar opção 5, exibir opções restantes}
+
+3. Confiro a porta 52
+
+	"... confiro a porta 52. Ouço um... constante choro vindo de trás da porta. Eu..."
+	{Opção 3 -> Opção * 3 *}
+
+* 3 *. Tento me comunicar.
+
+	"...tento me comunicar. Pergunto se tem alguém ai, digo que estou perdido e que
+	não lembro de quem sou. O choro para e se torna numa risada. Começa baixa, mas 
+	logo vai aumentando, alcançando niveis que uma garganta humana seria incapaz
+	de produzir. Minha adrenalina sobe. Um senso de perigo emana da porta. Me 
+	preparo para correr para longe a risada insana aumenta ainda mais e de repente para, 
+	indo embora juntamente com a sensação de perigo, restando somente a memoria de uma 
+	ameaça. O que foi isso? Tenho de sair logo daqui. Não quero saber se a porta está aberta,
+	temo o que possa haver atrás dela, então eu..."
+
+	{Eliminar opção * 3 *, mostrar opções restantes}
+
+4. Confiro a porta 49
+	
+	"Ouço o ruido de um rádio fora de estação. Como pode lá dentro
+	haver eletricidade se aqui tudo está escuro? A porta está trancada, eu..."
+
+	{Eliminar opção 4, mostrar opções restantes}
+
+5. Confiro o quarto sem numeração
+	
+	[A1 - Não pegou a chave 50]
+	"... confiro o quarto sem numeração. Está trancado. Volto e..."
+	[Tentou A1 mais de uma vez]
+	"confiro novamente o quarto sem numeração. Ainda não abriu por mágica. Eu..."
+	[A2 - Achou chave 50]
+	"... confiro o quarto sem numeração. Encaixo a chave, a giro e, para minha 
+	surpresa, ele abre. Então esse é o quarto 50."
+
+	{Ir para Quarto 50}
+	
+		(Quarto 50)
+
+	"Um quarto identico aos outros, as janelas também estão tampadas com tabua e
+	a escuridão é total, salvo pelo que consigo iluminar com a lanterna. Eu..."
+
+	1. Checo ao redor
+		
+		"... examino ao redor. Acho então um guarda chuva, uma escrivaninha com 
+		uma chave em cima, outro recorte de jornal em cima da cama e vejo que aqui
+		há também um banheiro. Paro de examinar e..."
+
+		{Desbloqueia opções 2,3,4,5}
+
+	2. Pego o guarda chuva
+		
+		"... pego o guarda chuva e o guardo na bolsa. A chuva incessante 
+		continua do lado de fora, vou precisar dele quando conseguir sair. 
+		Se eu conseguir sair. Eu..."
+	
+		{E.O 2, M.O.R}
+
+	3. Pego a chave.
+
+		"... pego a chave. Não tem nenhuma marcação nela. A guardo e..."
+
+		{E.O 3, M.O.R}
+
+	4. Confiro o Jornal.
+
+		"... confiro o jornal. Esse data de 02 de Fevereiro de 1985"
+		
+		{Mostrar Jornal - 02 de Fevereiro de 1985}
+
+		{Adicionar 02 de Fevereiro de 1985 em Documentos, Jornal}
+
+		"Algo... mal? Cada vez mais, esse hotel parece ser mais do que realmente é.
+		Preciso sair logo daqui... Eu..."
+
+		{E.O 4, M.O.R}
+
+	5. Checo o banheiro.
+
+		"... checo o banheiro. O vidro está quebrado e a privada seca. Na pia, há um vidro 
+		de remedios. 3 pilulas se encontram dentro. Um papel comum foi pregado com fita adesiva
+		ao redor do vidro, substituindo a bula arrancada. No papel se lê 'Para Alucinações'. Eu..."
+		
+		{Opção 5 --> Opção * 5 *.}
+
+	* 5 *. Pego o remedio.
+
+		"Pego o remedio. Nunca se sabe quando pode ser util, o guardo na minha bolsa e volto até 
+		o quarto. Então..."
+
+		{E.O 5, M.O.R}
+
+	[Caso todas as opções tenham sido selecionadas]
+
+	6. Volto ao corredor.
+
+		"... volto ao corredor."
+		{Ir para Corredor}
+		"Para que será que serve essa chave? Eu..."
+		{Eliminar opção 5: Conferir quarto sem numeração, mostrar opções restantes}
+		
+		
+6. Checo a porta ao final do corredor
+	
+	[A1 - Não conseguiu chave no quarto 50]
+		"... checo a porta ao final do corredor. Está trancada. Volto e..."
+			{M.O.R}
+	[A2 - Conseguiu chave no quarto 50]
+		"... checo a porta ao final do corredor. Coloco a chave sem numeração nela.
+		A porta desliza suavemente, revelando uma escadaria larga com tapete vermelho.
+		Avanço nela, descendo-a."
+
+		(Ir para Andar 1)
+
+(ANDAR 1)
+
+
+
+
+				
